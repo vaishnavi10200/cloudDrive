@@ -1,0 +1,31 @@
+# ─── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Environment variables (NEVER commit these) ───────────────────────────────
+.env
+.env.local
+.env.production
+
+# ─── GCP Service Account Key (NEVER commit this) ──────────────────────────────
+*.json
+!package.json
+!package-lock.json
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+
+# ─── Vite build output ────────────────────────────────────────────────────────
+dist/
+dist-ssr/
+
+# ─── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Editor files ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
