@@ -2,7 +2,7 @@
 
 A secure, full-stack cloud file storage application - similar to Google Drive - built as an internship project.
 
-**Author:** Prerana Hippargi
+**Author:** Vaishnavi Saudagar
 
 ---
 
